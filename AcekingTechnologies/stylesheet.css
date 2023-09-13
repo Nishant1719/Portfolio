@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto Condensed,Helvetica,sans-serif;
+    text-decoration: none;
+    color: #BFACE2;
+}
+
+nav {
+    z-index: 1;
+    background-color:#3E54AC;
+    height: 65px;
+    width: 100vw;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    color: white;
+    float: left;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    float: right;
+    
+}
+.buttn {
+   position: relative;
+   bottom: 20px;
+   background-color: #3E54AC;
+   border: 0;
+   cursor: pointer;
+   
+}
+a.active,a:hover {
+    /* background: white; */
+    color: #ECF2FF;
+    transition: .5s;
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slide {
+    display: none;
+    height: 550px;
+    width: 100vw;
+    font-size: 80px;
+    
+}
+#slider-1 {
+    background-image: url(/markus-spiske-k-o-Icw5J80-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+#slider-2 {
+    background-image:url(/hunters-race-MYbhN8KaaEc-unsplash.jpg);
+    background-size: cover;
+}
+#slider-3 {
+    background-image: url();
+    background-size: cover;
+}
+.text {
+    margin-top: 60px;
+    color: #3E54AC; 
+}
+
+.learn-more {
+   height: 40px;
+   width: 140px;
+   margin-left: 20px;
+   border-radius: 9%;
+   border: 1px solid #3E54AC;
+   background-color: #3E54AC;
+}
+
+button.active,button:hover {
+    transition: .5s ,ease;
+    cursor: pointer;
+    color: white;
+}
+#youtube {
+    height: 600px;
+    width: 100vw;
+    background-color: #ECF2FF;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 110px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-size:40px;
+    width: fit-content;
+    color:#3E54AC;
+}
+#text2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: fit-content;
+    color: #3E54AC;
+}
+
+#button2 {
+   margin-top: 30px;
+   margin-left: 30px;
+   width: fit-content;
+   height: 40px;
+   width: 240px;
+   border-radius: 9%;
+   border: 1px solid #3E54AC;
+   background-color: #3E54AC;
+} 
+iframe {
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
+#Twitter {
+    width: 100vw;
+    height: 500px;
+    background-color: #ECF2FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #3E54AC;
+}
+
+#twit {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:#3E54AC;
+    background-image: url(/pngegg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: end;
+    background-color: #213555;
+    height: 550px;
+    width: 100vw;
+}
+.readmore {
+    height: 500px;
+    width: 15%;
+}
+
+.headF {
+    margin-top: 25px ;
+    margin-bottom: 10px;
+    color:#F0F0F0;
+    
+}
+.content {
+    color:white;
+}
+
+.Readmorebttn {
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 9%;
+    border: 1px solid #3E54AC;
+    background-color: #3E54AC;
+    font-size: 15px; 
+}

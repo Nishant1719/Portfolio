@@ -1,0 +1,22 @@
+  /*height: 700px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex; /*It makes div act as a flex box as it starts the function*/
+    /*flex-direction: row ; --its default but its makes main axis = row (from left to right). and cross axis direction becomes (top to bottom)*/
+    /*flex-direction: row-reverse; its opposite of row making main axis = row (from right to left) and cross axis direction becomes (top to right).*/
+    /*flex-direction: column; it makes main axis column (Top to bottom).*/
+    /*flex-direction: column-reverse; this makes main axis column but in reverse direction (bottom to top).like first element will be on the bottom */
+/************************************************/
+    /*justify-content: start; /*It arranges items from the start of the main axis*/
+    /*justify-content: end; /*It arranges the items at the end of the main axis also the direction of the axis remains the same.)*/
+    /*justify-content: center;/* It arranges the items in the centre of the main axis without changinig the direction of the main axis.*/
+    /*justify-content: space-around; /*It arranges the items in such a form that items will have spaces between them and boundry of the container also the space between the boundry and the space between 2 items will alwys be half (space between boundry and item = 2 times space for items ).*/
+    /*justify-content: space-between; /*it leaves no extra space between the boundry and the items and distributes it in the middle of the items.*/
+    /*justify-content: space-evenly ; /* It distributes spaces between the elements evenly throught the main axis.*/
+/**************************************************/
+    /*flex-wrap: wrap; /*it have to use to use align-content and align-items */
+    /*align-items: center; /* It aligns item in the centre of the cross axis and does not reduces the width of the boxes.*/
+    /*align-content: center; /* It aligns the items in the centre of the container.*/
+    
+    
+    
