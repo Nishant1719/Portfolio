@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav {
+    width: 100%;
+    height: 48px;
+    padding: 6px 6px 6px 6px;
+    background-color: #202121;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-content {
+    width: 220px;
+    padding: 0px 6px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 15px;
+    align-items: center;
+}
+.nav-content a {
+    font-size: small;
+    color: white;
+}
+
+.nav-icon {
+    
+    border-radius: 50%;
+    height: 40px;
+    width: 40px; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-icon i {
+    width: 5px;
+    font-weight: 700;
+}
+.nav-profile {
+    
+    border-radius: 50%;
+    height: 40px;
+    width: 40px; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-icon:hover, .nav-profile:hover
+{
+    background-color: #363737;
+}
+.nav-content a:hover{
+    text-decoration: underline;
+}
+.logo{
+    background-color:#202121 ;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar {
+    height: 120px;
+    width: 100%;
+    padding: 20px 20px 20px 20px ;
+    background-color: #202121;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar {
+    height: 46px;
+    width: 582px;
+    border: 1px solid #303134;
+    border-radius: 24px;
+    padding: 4px 8px 0px 14px;
+    display: flex;
+    align-items: center;
+}
+.bar-icon {
+    padding: 0px 13px;
+}
+
+.bar-input input{
+    height: 35px;
+    width: 483px;
+    background-color: #202121;
+    border: none;
+}
+.bar-cam a,.bar-icon a {
+    color: #bdc1c6;
+}
+
+.bar:hover,.bar-input input:hover {
+    background-color: #303134;
+}
+.search-buttons {
+    width: 584px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+}
+.google-search {
+    height: 36px;
+    width: 128px ;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px ;
+    border: 1px solid #303134;
+    background-color: #303134;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-lucky {
+    width: 142.5px;
+    height: 36px;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px ;
+    border: 1px solid #303134;
+    background-color: #303134;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.google-search p, .search-lucky p {
+    background-color: #303134 ;
+    font-size: 13.5px;
+}
+.google-search a, .search-lucky a {
+    color: white;
+}
+.google-search:hover, .search-lucky:hover {
+    border-color:#bdc1c6 ;
+}
+.lang {
+    height: 246px;
+    width: 100%;
+    background-color: #202121;
+    display:flex ;
+    justify-content: center;
+}
+.select {
+    display: flex;
+    justify-content: space-evenly;
+    height: 28px;
+    width: 600px;
+}
+.select a , p {
+    font-size: 14px;
+    color: white;
+}
+.select a {
+    color: #8AB4F8;
+}
+.select a:hover {
+    text-decoration: underline;
+}
+.country {
+    height: 48px;
+    background-color: #161717;
+    padding: 15px 30px 15px 30px ;
+}
+.country p {
+    color: #9AA0A6;
+}
+
+.more-links {
+    height: 46px;
+    background-color: #161717;
+    border-top: 1px solid #303134;
+    padding: 0px 20px 0px 20px ;
+    display:flex;
+    justify-content: space-between;
+}
+.bussiness {
+    display: flex;
+}
+.bussiness div {
+    padding: 15px 15px 15px 15px;
+}
+.bussiness a {
+    color: #9AA0A6;
+    font-size: 14px;
+}
+.privacy {
+    display: flex;
+}
+.privacy div {
+    padding: 15px 15px 15px 15px;
+}
+.privacy a {
+    color: #9AA0A6;
+    font-size: 14px;
+}
+.privacy a:hover, .bussiness a:hover  {
+    text-decoration: underline;
+}
