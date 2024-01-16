@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="PhotoCard">
+        <div id="user">
+            <div id="pic"></div>
+            <p id="phone"></p>
+            <p id="email"></p>
+        </div>
+        
+    </div>
+</body>
+<script>
+    
+    const url = 'https://randomuser.me/api/'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',url)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState)
+        if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText)
+            // console.log(data.results[0].picture.medium)
+            const picUrl = data.results[0].picture.medium
+            
+            const img = document.createElement("img");
+            img.src = picUrl;
+            const div = document.getElementById("pic");
+            div.appendChild(img);
+
+            const PhoneNo = data.results[0].cell
+            document.getElementById("phone").innerHTML = PhoneNo;
+            
+            const email = data.results[0].email
+            document.getElementById("email").innerHTML = email;
+        }
+    }
+    xhr.send()
+</script>
+</html>

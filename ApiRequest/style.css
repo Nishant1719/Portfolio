@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.PhotoCard {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:darkorchid;
+}
+#user { 
+    height: 250px ;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+img{
+    height: 100px;
+}
+p{
+    color: antiquewhite;
+    text-decoration: solid;
+} 
